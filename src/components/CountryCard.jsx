@@ -2,7 +2,7 @@ export default function CountryCard(props) {
     return ( 
     <div className="card">
         <div className="img-container">
-            <img src={props.item.picUrl} alt='Location Image' className="card--img" />
+            <img src={props.item.picUrl} alt='Location' className="card--img" />
         </div>
         <div className="text-container">
             <div className="card--loc">
